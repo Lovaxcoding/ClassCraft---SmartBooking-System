@@ -20,6 +20,8 @@ const menuItems = [
   { label: "Équipements", href: "/dashboard/equipements", icon: Wrench },
   { label: "Utilisateurs / Élèves", href: "/dashboard/utilisateurs", icon: Users2 },
   { label: "Statistiques", href: "/dashboard/stats", icon: BarChart3 },
+  { label : "Calendrier", href: "/dashboard/calendrier", icon: CalendarDays },
+  { label: "Log & Activité", href: "/dashboard/logs", icon: BarChart3 },
 ];
 
 export function Sidebar() {

@@ -34,6 +34,7 @@ export interface AlternativeProposition {
   heure_debut: string;
   heure_fin: string;
 }
+export type ReservationStatus = "PRISE" | "DISPONIBLE" | "EN_PAUSE";
 
 // Structure complète d'une réservation reçue de l'API (avec les détails inclus)
 export interface Reservation {
@@ -53,6 +54,7 @@ export interface Reservation {
     role: string;
   };
   ressource_details?: Resource;
+  statut: ReservationStatus;
 }
 
 // Structure de la réponse renvoyée par le serveur Django
